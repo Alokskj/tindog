@@ -1,0 +1,189 @@
+
+body{
+    
+    font-family: 'Montserrat', sans-serif;
+}
+
+#title{
+    background-color: #ff4c68;
+    
+}
+
+
+
+@media only screen and (max-width: 992px){
+
+   #title {
+    text-align:center;
+     }
+
+   
+
+
+   
+}
+.container-fluid{
+    padding: 3% 15% 10%;
+}
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    color: white;
+}
+
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    line-height: 1.5;
+    font-size: 3rem;
+    
+}
+
+h3{
+   font-family: 'montserrat';
+   font-weight: bold;
+}
+
+
+
+/* navigation bar */
+
+.navbar{
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.navbar-item{
+    padding: 0 18px;
+    font-weight: light;
+    font-size: 1.2rem;
+}
+
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+
+.title-image{
+    width: 60%;
+    transform: rotate(25deg);
+    position: absolute;
+}
+
+@media only screen and (max-width: 992px){
+   .title-image{
+      
+      position: static;
+      transform: rotate(0);
+  }
+}
+
+ /* features */
+
+ #features{
+    text-align: center;
+    padding: 7% 15%;
+    background-color: white;
+    position: relative;
+ }
+ #features p{
+    color: #8f8f8f;
+ }
+
+
+ .feature-box{
+    padding: 2rem;
+ }
+
+ .bi-check-circle-fill, .bi-bullseye, .bi-heart-fill{
+    color: #ef8172;
+    font-size: 4.5rem;
+ }
+
+ .bi-check-circle-fill:hover, .bi-bullseye:hover, .bi-heart-fill:hover{
+    color: #ff4c68;
+ }
+
+
+ /* testimonials */
+
+ #testimonials{
+    text-align: center;
+    /* padding: 7% 15%; */
+    background-color: #ef8172;
+    color: white;
+    
+
+ }
+
+ .dog-img{
+    width: 10%;
+    margin: 20px;
+    border-radius: 100%;
+ }
+
+ #press{
+
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3% ;
+ }
+
+ .press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+ }
+
+ .carousel-item{
+    padding: 7% 15%;
+ }
+
+
+ /* pricing */
+
+ #pricing{
+   text-align: center;
+   padding: 100px;
+ }
+ .cards{
+   padding: 3% 2%;
+ }
+
+
+ /* Call to Action */
+
+ #cta{
+   background-color: #ff4c68;
+   padding: 7% 15%;
+   text-align: center;
+   color: white;
+ }
+
+ #cta h3{
+   font-family: 'montserrat';
+   font-weight: 900;
+   font-size: 3.5rem;
+   line-height: 1.5;
+ }
+
+
+ /* footer */
+
+ #footer{
+   text-align: center;
+   padding: 7% 15%;
+ }
+ .social-icons{
+   margin: 10px;
+ }
+ .social-icons .bi{
+   padding: 6px;
+ }
